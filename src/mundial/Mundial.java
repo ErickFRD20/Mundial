@@ -14,11 +14,6 @@ public class Mundial {
     protected  LocalDate año;
     protected String Pais;
 
-    public Mundial(String Nombre, LocalDate año, String Pais) {
-        this.Nombre = Nombre;
-        this.año = año;
-        this.Pais = Pais;
-    }
 
     public String getNombre() {
         return Nombre;
@@ -43,11 +38,19 @@ public class Mundial {
     public void setPais(String Pais) {
         this.Pais = Pais;
     }
-    @Override
-    public String toString(){
-        return "Mundial{" + 
-                "Nombre" + Nombre + 
-                "año=" año + "pais=" Pais + "/" + "/";
-    } 
     
+    public Mundial(String Nombre, LocalDate año, String Pais) {
+        this.Nombre = Nombre;
+        this.año = año;
+        this.Pais = Pais;
+    }
+    
+    @Override
+public String toString() {
+    return "Mundial{" +
+            "nombre=" + Nombre + '\'' +
+            " año=" + año +
+            " pais=" + Pais + '\'' +
+            '}';
+}
 }
