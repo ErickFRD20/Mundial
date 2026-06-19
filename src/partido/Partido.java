@@ -115,15 +115,15 @@ public class Partido {
     }
        @Override
     public String toString() {
-        return "Partido{" +
+        return "Partido (" +
                 "seleccionLocal=" + seleccionLocal +
-                "seleccionVisitante=" + seleccionVisitante +
-                "estadio='" + estadio + '\'' +
-                "fecha=" + fecha +
-                "hora=" + hora +
-                "arbitro=" + arbitro +
-                "resultado='" + resultado + '\'' +
-                '}';
+                ", seleccionVisitante=" + seleccionVisitante +
+                ", estadio='" + estadio +
+                ", fecha=" + fecha +
+                ", hora=" + hora +
+                ", arbitro=" + arbitro +
+                ", resultado='" + resultado +
+                ')';
     }
     
 }
