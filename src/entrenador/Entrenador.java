@@ -14,17 +14,16 @@ import persona.Persona;
 public class Entrenador extends Persona {
     protected int añosExperiencia;
 
-    public Entrenador(int añosDeExperiencia, String nombre, String nacionalidad, LocalDate fechaNacimiento) {
-        super(nombre, nacionalidad, fechaNacimiento);
-        this.añosExperiencia = añosDeExperiencia;
-    }
-
     public int getAñosDeExperiencia() {
         return añosExperiencia;
     }
 
     public void setAñosExperiencia(int añosExperiencia) {
         this.añosExperiencia = añosExperiencia;
+    } 
+    public Entrenador(int añosDeExperiencia, String nombre, String nacionalidad, LocalDate fechaNacimiento) {
+        super(nombre, nacionalidad, fechaNacimiento);
+        this.añosExperiencia = añosDeExperiencia;
     }
     @Override
 public String toString() {
