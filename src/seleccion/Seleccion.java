@@ -108,6 +108,10 @@ public void agregarJugador(Jugador jugador) {
             System.out.println("no existe la camiseta"+numero);
         }
     }
+
+    public Object getNombre() {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
 }
 
         
