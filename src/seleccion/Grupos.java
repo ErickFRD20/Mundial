@@ -15,7 +15,7 @@ public enum Grupos {
     private final String descripcion;
 
     public String getDescripcion() {
-        return descripcion;
+        return descripcion; 
     }
       private Grupos(String descripcion) {
         this.descripcion = descripcion;
